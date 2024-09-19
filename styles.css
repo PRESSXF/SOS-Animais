@@ -225,3 +225,237 @@ footer {
     padding: 20px;
     text-align: center;
 }
+/* Paleta de cores */
+:root {
+    --color-primary: #d6b27f; /* Marrom Claro */
+    --color-secondary: #f0e5d8; /* Bege */
+    --color-accent: #d34667; /* Rosa Claro */
+    --color-background: #f9f9f9; /* Cinza Claro */
+    --color-text: #333; /* Texto padrão */
+    --color-header: #4d3b27; /* Marrom Escuro */
+    --color-card: #ffffff; /* Branco */
+    --color-overlay: rgba(0, 0, 0, 0.5); /* Overlay para a seção hero */
+    --color-link: #4d3b27; /* Cor dos links */
+    --color-green: #9bcf9c; /* Verde Pastagem */
+}
+
+/* Geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-header);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .logo span {
+    color: var(--color-accent);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero .overlay {
+    background: var(--color-overlay);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 0 0 20px;
+}
+
+.cta {
+    background-color: var(--color-accent);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.cta:hover {
+    background-color: #523239;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    background-color: var(--color-card);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+.campaign {
+    background-color: var(--color-background);
+}
+
+.goals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.goal {
+    background-color: var(--color-card);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.goal img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: var(--color-accent);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #2b1e1d;
+}
+
+.agradecimento {
+    background-color: var(--color-card);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-location {
+    background-color: var(--color-background);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: var(--color-header);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos da seção de histórias de resgates */
+.rescue-stories {
+    background-color: var(--color-card);
+    padding: 40px 20px;
+}
+
+.rescue-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.rescue-card {
+    background-color: var(--color_background);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.rescue-card h3 {
+    font-size: 1.5em;
+    color: var(--color-header);
+    margin-top: 15px;
+}
+
+.rescue-card p {
+    font-size: 1.1em;
+    color: var(--color-text);
+    margin-top: 10px;
+}
+
+video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .rescue-card {
+        width: 100%;
+    }
+}
