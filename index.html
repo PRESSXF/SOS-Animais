@@ -6,7 +6,6 @@
     <title>SOS Animais</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API"></script>
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -21,7 +20,6 @@
                 <li><a href="#campanha">Campanha de Doação</a></li>
                 <li><a href="#historias">Histórias de Resgates</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a href="#localizacao">Como Nos Encontrar</a></li>
             </ul>
         </nav>
     </header>
@@ -38,50 +36,61 @@
     <!-- Sobre Nós -->
     <section id="sobre-nos" class="section">
         <h2>Sobre a SOS Animais</h2>
-        <p>"Resgatamos e acolhemos temporariamente animais em situação de abandono e risco."</p>
-        <p>Fundada para salvar animais de rua, a SOS Animais é uma organização sem fins lucrativos que se dedica a resgatar, tratar e encontrar lares responsáveis para cães e gatos em situações de risco. Nosso trabalho é movido pela compaixão e pelo desejo de transformar a vida desses seres indefesos.</p>
+        <p>Fundada com o propósito de salvar animais de rua, a SOS Animais é uma organização sem fins lucrativos que se dedica a resgatar, tratar e encontrar lares responsáveis para cães e gatos em situações de risco. Nossa missão vai além de acolher. Queremos educar a sociedade sobre a importância da adoção responsável e do cuidado com os animais, criando uma rede de apoio que transforma a vida dos animais e das famílias que os adotam.</p>
+        <p>Atualmente, enfrentamos desafios enormes, incluindo a falta de um espaço adequado para abrigar a quantidade crescente de animais e a falta de um veículo apropriado para realizar os resgates com segurança e rapidez.</p>
     </section>
 
     <!-- Campanha de Doação -->
     <section id="campanha" class="section campaign">
         <h2>Campanha de Doação</h2>
-        <p>A SOS Animais está em uma campanha urgente para adquirir um carro utilitário, que servirá como uma ambulância móvel para resgates, e para construir um canil que abrigará até 200 animais em uma aldeia. Toda ajuda é bem-vinda!</p>
+        <p>As necessidades da SOS Animais cresceram com o passar do tempo, e agora, mais do que nunca, precisamos de sua ajuda para continuar nosso trabalho. Nossas campanhas de doação estão focadas em dois objetivos principais: a aquisição de uma ambulância móvel para resgates e a construção de um canil em aldeia para abrigar até 200 animais.</p>
+        
         <div class="goals">
             <div class="goal">
-                <h3>Ambulância Móvel</h3>
-                <img src="ambulancia.jpg" alt="Ambulância">
-                <p>Ajude-nos a adquirir um veículo para realizar resgates com maior segurança e eficiência. Cada doação nos aproxima desse objetivo!</p>
+                <h3>Ambulância Móvel para Resgate</h3>
+                <img src="ambulancia.jpg" alt="Ambulância SOS Animais">
+                <p>Nosso sonho é adquirir um veículo que sirva como ambulância móvel, equipado para atender emergências e resgatar animais em condições precárias. Muitas vezes, nossos resgates são comprometidos pela falta de transporte adequado, e essa ambulância representaria uma mudança significativa na nossa capacidade de resposta.</p>
                 <a href="#" class="button">Doe Agora</a>
             </div>
             <div class="goal">
-                <h3>Construção do Canil</h3>
-                <img src="canil.jpg" alt="Canil">
-                <p>Contribua para a construção de um abrigo seguro para 200 animais, garantindo que eles tenham um local adequado para viver até serem adotados.</p>
+                <h3>Construção de Canil</h3>
+                <img src="canil.jpg" alt="Terreno para canil">
+                <p>Estamos trabalhando para construir um canil que será um abrigo seguro para 200 animais resgatados. O espaço será projetado para oferecer conforto e bem-estar aos animais, permitindo que eles se recuperem e se preparem para encontrar um lar permanente.</p>
                 <a href="#" class="button">Contribua para o Abrigo</a>
             </div>
+        </div>
+        <div class="agradecimento">
+            <h3>Agradecemos seu Apoio</h3>
+            <p>A SOS Animais só é capaz de continuar seu trabalho por causa de pessoas como você. Cada ajuda, seja financeira ou voluntária, faz toda a diferença na vida dos animais que resgatamos.</p>
         </div>
     </section>
 
     <!-- Histórias de Resgates -->
     <section id="historias" class="section">
         <h2>Histórias de Resgates</h2>
-        <p>Confira as histórias emocionantes de alguns dos animais que resgatamos e que, graças à sua ajuda, conseguiram uma nova chance de vida.</p>
-        <div class="historias-content">
-            <div class="rescue-story">
-                <h3>Resgate da Bella</h3>
-                <p>A Bella foi encontrada em condições precárias, mas com a ajuda de nossos voluntários e doadores, ela foi resgatada, tratada e hoje vive feliz com sua nova família.</p>
+        <p>Ao longo dos anos, a SOS Animais já resgatou centenas de animais. Cada resgate é único, mas todos compartilham uma coisa em comum: o desejo de uma vida melhor. Aqui estão algumas histórias emocionantes de animais que encontraram uma segunda chance conosco.</p>
+        
+        <div class="historias">
+            <div class="caixinha-historia">
                 <video controls>
                     <source src="bella-rescue.mp4" type="video/mp4">
                     Seu navegador não suporta a tag de vídeo.
                 </video>
+                <div class="historia-info">
+                    <h3>Resgate da Bella</h3>
+                    <p>Bella foi encontrada à beira de uma estrada, gravemente machucada e sem forças. Com o apoio de doadores e voluntários, ela passou por uma cirurgia e, hoje, vive feliz com sua nova família.</p>
+                </div>
             </div>
-            <div class="rescue-story">
-                <h3>Resgate do Max</h3>
-                <p>Max era apenas um filhote quando foi resgatado. Hoje, ele é um cachorro saudável e brincalhão que encontrou um lar amoroso.</p>
+            
+            <div class="caixinha-historia">
                 <video controls>
                     <source src="max-rescue.mp4" type="video/mp4">
                     Seu navegador não suporta a tag de vídeo.
                 </video>
+                <div class="historia-info">
+                    <h3>Resgate do Max</h3>
+                    <p>Max era apenas um filhote quando foi encontrado em um terreno baldio. Hoje, Max é saudável e encontrou um lar cheio de carinho.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -94,22 +103,12 @@
             <p><strong>Telefone:</strong> (81) 98861-2868</p>
             <p><strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=5581988612868">Clique aqui para nos contatar</a></p>
             <p><strong>Instagram:</strong> <a href="https://www.instagram.com/sosanimaisemrisco">@sosanimaisemrisco</a></p>
+            <p><strong>Horário de Funcionamento:</strong> Segunda a Sexta - 08:00 às 18:00</p>
+            <div class="mapa">
+                <h3>Como Nos Encontrar</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.212229215879!2d-34.91513142532534!3d-8.042191782993584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1fa9f5c6e8fd%3A0x49ad580d4897e0bd!2sR.%20Francisco%20Vita%2C%201757%20-%20Cordeiro%2C%20Recife%20-%20PE%2C%2050630-190!5e0!3m2!1spt-BR!2sbr!4v1631181917495!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
-        <form>
-            <input type="text" name="nome" placeholder="Seu nome">
-            <input type="email" name="email" placeholder="Seu email">
-            <textarea name="mensagem" placeholder="Sua mensagem"></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
-    <!-- Como Nos Encontrar -->
-    <section id="localizacao" class="section">
-        <h2>Como Nos Encontrar</h2>
-        <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.821216406019!2d-34.91712128468627!3d-8.056018494184883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f32b94ff1b1%3A0x1a4aaf2e5c8df9e2!2sR.%20Francisco%20Vita%2C%201757%20-%20Cordeiro%2C%20Recife%20-%20PE%2C%2050630-190!5e0!3m2!1sen!2sbr!4v1695020847324" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <p>Visite-nos ou entre em contato através de nossos canais de comunicação para saber como você pode ajudar!</p>
     </section>
 
     <!-- Rodapé -->
